@@ -256,7 +256,7 @@ public abstract class Classifier {
             .getMapWithFloatValue();
     Trace.endSection();
 
-    // Gets top-k results.
+
     return getTopKProbability(labeledProbability);
   }
 
